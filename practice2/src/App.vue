@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
     <router-view/>
   </div>
 </template>
@@ -19,5 +18,14 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.button {
+  margin: 20px;
+}
+
+textarea {
+  width: 500px;
+  height: 300px;
 }
 </style>
