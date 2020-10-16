@@ -16,7 +16,6 @@
       </div>
       <div class="button">
         <input v-on:click="showScene2" type="button" value="次へ進む">
-        <!-- <router-link to="/2" tag="button">次へ進む</router-link> -->
       </div>
     </div>
 
@@ -51,8 +50,6 @@
       <div class="button">
         <input v-on:click="showScene1" type="button" value="前へ戻る">
         <input v-on:click="showScene3" type="button" value="次へ進む">
-        <!-- <router-link to="/" tag="button">前へ戻る</router-link>
-        <router-link to="/3" tag="button">次へ進む</router-link> -->
       </div>
     </div>
 
@@ -70,8 +67,6 @@
       <div class="button">
         <input v-on:click="showScene2" type="button" value="前へ戻る">
         <input type="button" value="次へ進む">
-        <!-- <router-link to="/2" tag="button">前へ戻る</router-link>
-        <router-link tag="button">次へ進む</router-link> -->
       </div>
     </div>
   </div>
